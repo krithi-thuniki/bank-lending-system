@@ -1,0 +1,31 @@
+### Create Loan
+POST http://localhost:5000/api/v1/loans
+Content-Type: application/json
+
+{
+  "customer_id": "krithi",
+  "loan_amount": 10000,
+  "loan_period_years": 2,
+  "interest_rate_yearly": 5
+}
+
+###
+
+### Make Payment
+POST http://localhost:5000/api/v1/loans/15bcae02-7130-4bff-860a-2f5e3e854060/payments
+Content-Type: application/json
+
+{
+  "amount": 500,
+  "payment_type": "EMI"
+}
+
+###
+
+### Get Loan Ledger
+GET http://localhost:5000/api/v1/loans/15bcae02-7130-4bff-860a-2f5e3e854060/ledger
+
+###
+
+### Customer Loan Overview
+GET http://localhost:5000/api/v1/customers/krithi/overview
