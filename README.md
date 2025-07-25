@@ -1,7 +1,7 @@
 # 💰 Bank Lending System
 
 A full-stack web application for managing customer loans, making EMI/lump sum payments, and viewing detailed loan ledgers and account overviews.
-NOTE :RUN BOTH THE SERVERS OF REACT AND NODE JS AT A TIME FOR THE APPLICATION WORKING.
+NOTE :RUN BOTH THE SERVERS OF REACT AND NODE JS AT A TIME FOR THE APPLICATION WORKING.RUN REACT BY USING:npm start,RUN NODE BY USING:node server.js
 ## 🌐 Tech Stack
 
 - **Frontend:** React.js + Bootstrap
